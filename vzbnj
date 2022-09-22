@@ -1,0 +1,78 @@
+<div class="header">
+<div class="menu-bar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        
+          <a class="navbar-brand" href="#">NEXUS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <nav class=" navbar navbar-expand-lg navbar-light bg-light sticky-top " style="background-color: #62ddff ;">
+        <div class="container-fluid" style="background-color: #62ddff ;">
+            <a class="navbar-brand" href="#">NEXUS</a>
+            <button class="navbar-toggler" type="button" data-togle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                <ul class=" navbar-nav active "><li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <ul class=" navbar-nav  ml-auto"><li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <ul class="navbar-nav ml-auto"><li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                            <ul class="navbar-nav ml-auto"><li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+                                <ul class="navbar-nav ml-auto"><li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+                                    <ul class="navbar-nav ml-auto"><li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                                        <ul class="nav navbar-nav ml-auto">
+                                            <button type="button" class="btn btn-outline-primary me-md-2">Free Trial</button></ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    </div>
+    <div class="col carousel slide" data-ride="carousel" id="slides">
+        <ul class="carousel-indicators"><li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        
+        
+        
+        </ul> </div>
+
+
+    background-color:<div class="card-group">
+      <div class="card">
+        <a  class="imglink" href="#"><img src="monitor.png" class="card-img-top"style="width: 30% " alt="..."></a>
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Stuning visuals</h5>
+          <p class="card-text"> Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
+          
+        </div>
+      </div>
+      <div class="card">
+          <a  class="imglink" href="#"><img src="selector.png" class="card-img-top  " style="width: 30% " alt="..."></a>
+        <div class="card-body" style="text-align: center;">
+          <h5 class="card-title">Stuning visuals</h5>
+          <p class="card-text">Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
+          
+        </div>
+      </div>;
+    col-xs-12 col-sm-6 col-md-4
