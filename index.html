@@ -1,19 +1,24 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='' rel='stylesheet'>
+    
 
-    <title>Hello, world!</title>
+
+    
+    <title>My page</title>
   
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
     
   
 </html>
@@ -25,13 +30,13 @@
 <body>
     <!--NAVIGACIJA-->
     <nav class="navbar navbar-expand-lg   navbar-light  sticky-top"   style="background-color:#62ddff; ">
-     <div class="container-fluid" style="background-color: #62ddff ; color: antiquewhite;">
-    <a class="navbar-brand text-light" href="#">NEXUS</a>
+     <div class="container-fluid " style="background-color: #62ddff ; color: antiquewhite;">
+    <a class="navbar-brand text-light" href="#"><strong>NEXUS</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mx-auto" style="">
+        <ul class="navbar-nav mx-auto" >
           <li class="nav-item active">
             <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -58,74 +63,106 @@
     </nav>
 
          <!--pocetna sekcija-->    
-         <div class="row" style="height: 100vh; background-color: #62ddff;">
+         <div class="row" style="height: 100vh; background: linear-gradient(90deg, #3fcfe5 0%,  #62ddff 100%)  ">
     
-          <div class="column col-md-5" style="color: white; padding-left: 100px; padding-top: 200px; ">
+          <div class="column col-md-5 col-sm-6" style="color: white; padding-left: 100px; padding-top: 200px; ">
           <h2>Mass People
             Oriented Software</h2>
           <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.</p>
-          <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-light" type="button">Get started</button>
-            <button class="btn btn-outline-light me-md-2 border-light text-light type="button">Download</button>
+          <button class="btn btn-outline-light btn-lg hover-overlay hover-zoom hover-shadow ripple text-center" style="border-radius:3px ">Get started</button>
+          <button class="btn btn-outline-light btn-lg hover-overlay hover-zoom hover-shadow ripple text-center" style="border-radius:3px ">Download</button>
           </div>
+          <div class="column col-md-5 col-sm-6" style="padding-top: 80px ">
+          <img  class="img-fluid"style="padding-top: 80px" src="headerimg.png">
           </div>
-          <div class="column col-md-5" style="padding-top: 80px">
-          <img src="headerimg.png">
-          </div>
+
          </div>
          
          
          
         
 <section>
-  <div class="container" style="height: 100vh; ">
-    <div class="container text-center">
-      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-      <div class="row py-5">
-        <div class="col-md-12"><h2>How it work for you</h2></div>
-        <div class=" col-md-12"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></div>
+  <div class="row" style="height: 100vh; background-color:white;">
+    <div class="row py-5 text-center ">
+      <div class="col-md-12 text-dark text-center"><h1>How it work for you</h1></div>
+      <div class=" col-md-9 mx-auto  text-secondary "><p>  Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></div>
       </div>
-    
-      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-      <div class="row">
-        <div class="col-6 col-md-4"><img src="monitor.png" style="width: 78px; padding-top: 11px; padding-bottom: 12px;"><h1>Stuning visual</h1><p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p></div>
-        <div class="col-6 col-md-4"><img src="selector.png" style="width: 78px; padding-top: 11px; padding-bottom: 12px;"><h1>Stuning visual</h1><p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p></div>
-        <div class="col-6 col-md-4"><img src="wall-clock.png" style="width: 78px; padding-top: 11px; padding-bottom: 12px;"><h1>Stuning visual</h1><p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p></div>
-      </div>
+      <div class="row mx-auto ">
+        <div class="card mx-auto " style="width: 18rem; padding: 30px; border-color: white;">
+          <a  class=" btn btn-outline-warning mx-auto" href="#" target="_blank"><img src="buttons (1).png" style="width: 60px;"></a>
+          <a class="mx-auto">Stuning visuals</a>
+          <div class="card-body text-center">
+            <p class="card-text">Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
+          </div>
+        </div>
+        <div class="card mx-auto " style="width: 18rem; padding: 30px; border-color: white; ">
+          <a class="mx-auto  btn btn-outline-danger" href="#" target="_blank"><img src="play-button.png" style="width: 60px;"></a>
+          <a class="mx-auto">Stuning visuals</a>
+          <div class="card-body text-center">
+            <p class="card-text">Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
+          </div>
+        </div>
+        <div class="card mx-auto " style="width: 18rem; padding: 30px;   border-color: white; ">
+          <a class="mx-auto  btn btn-outline-dark border:2px" href="#" target="_blank"><img src="play-button (1).png" style="width: 60px;"></a>
+          <a class="mx-auto">Stuning visuals</a>
+          <div class="card-body text-center">
+            <p class="card-text">Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
+          </div>
+        </div>
+  
+  
+  
+  
+  </div>
+  
+        
    
 </section>
   
     <section>
-      <div class="row" style="height: 100vh; background-color:rgba(227, 241, 238, 0.952);">
-    
-        <div class="column col-md-6" style="color: white; padding-left: 100px; padding-top: 200px; ">
-         <div class="row"> <div class="col-md-12"></div></div>
-        <h1 class="text-dark">We’ve made a life
-          that will change you</h1>
-          <h5 class="text-dark">We are here to listen from you deliver exellence</h5>
-        <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.</p>
-        <div class="d-grid gap-2 d-md-block">
-          <button class="btn btn-light" type="button">Get started</button>
-        
+      <div class="container-fluid" style="background-color:#d6f6f6;; height: 100vh;">
+        <div class="container py-5">
+          <div class="row py-5 justify-content-center">
+            <div class="col-lg-3 col-md-2 col-sm-6"><button type="button"style="padding-left: 60px; padding-right: 60px ; background-color:white;" class="btn btn-outline-light btn-lg text-dark  hover-shadow ripple text-center ">Large button</button></div>
+            <div class="col-lg-3 col-md-2 col-sm-6"><button type="button" style=" padding-left: 60px;padding-right: 60px; background-color:white;"  class="btn btn-outline-light btn-lg hover-overlay hover-zoom hover-shadow ripple text-dark text-center">Large button</button></div>
+            <div class="col-lg-3 col-md-2 col-sm-6"><button type="button" style="background-color:white; padding-right: 60px; padding-left: 60px;" class="btn btn-outline-light btn-lg hover-overlay hover-zoom hover-shadow ripple text-center text-dark">Large button</button></div>
+            <div class="col-lg-3 col-md-2 col-sm-6"><button type="button" style="padding-left: 60px; padding-right: 60px; background-color:white;" class="btn btn-outline-light text-dark btn-lg hover-overlay hover-zoom hover-shadow ripple text-center ">Large button</button></div>
+           </div>
+          <div class="row">
+            <div class="col-lg-5 col-md-12 mb-4 p-5">
+             
+                  
+                    <h2 class="text-dark">We’ve made a life
+                      that will change you</h2>
+                    <p class="h6">We are here to listen from you deliver exellence</p>
+                  <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua.Ut enim ad minim</p>
+                  <button class="btn btn-outline-secondary btn-lg hover-overlay hover-zoom hover-shadow ripple text-center" style="border-radius:3px ">Get started</button> </div>
+               <div class="col-lg-7 col-md-12 mb-4">
+      
+              <img  class="img-fluid" src="slika3.png">
+              </div>
+            </div>
         </div>
+              </div>
+            </div>
+          </div>    
         </div>
-        <div class="column col-md-6" style="padding-top: 80px">
-        <img src="slika2.jpg">
-        </div>
-       </div>
+      
+            
+                
     </section>
 
     <section>
-      <div class="row" style="height: 100vh; background-color: #62ddff;">
+      <div class="row" style="height: 100vh; background-color: #f9fbfb;">
     
         <div class="container" style="height: 100vh; ">
           <div class="container text-center">
       
             <div class="row py-5">
-              <div class="col-md-12 text-light"><h2>UNIQUE SCREENS THAT WORK PERFECTLY</h2></div>
-              <div class=" col-md-12 text-light"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></div>
+              <div class="col-md-12  col-sm-6  text-dark"><h2>UNIQUE SCREENS THAT WORK PERFECTLY</h2></div>
+              <div class=" col-md-12  col-sm-6 text-dark"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></div>
             
-        <div class="column col-md-12" style="">
+        <div class="column col-md-12  col-sm-6" >
         <img src="headerimg.png">
         </div>
        </div>
@@ -133,30 +170,321 @@
     </section>
 
 <section>
-  <div class="row" style="height: 100vh; background-color:rgba(227, 241, 238, 0.952);">
+  <div class="container-fluid" style="background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card h-100 shadow-lg">
+            <div class="card-body">
+              <div class="text-center p-3">
+                <h5 class="card-title">Basic</h5>
+                <small>Individual</small>
+                <br><br>
+                <span class="h2">$8</span>/month
+                <br><br>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Cras justo odio</li>
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Dapibus ac facilisis in</li>
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Vestibulum at eros</li>
+            </ul>
+            <div class="card-body text-center">
+              <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card h-100 shadow-lg">
+            <div class="card-body">
+              <div class="text-center p-3">
+                <h5 class="card-title">Standard</h5>
+                <small>Small Business</small>
+                <br><br>
+                <span class="h2">$20</span>/month 
+                <br><br>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Cras justo odio</li>
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Dapibus ac facilisis in</li>
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Vestibulum at eros</li>
+            </ul>
+            <div class="card-body text-center">
+              <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card h-100 shadow-lg">
+            <div class="card-body">
+              <div class="text-center p-3">
+                <h5 class="card-title">Premium</h5>
+                <small>Large Companies</small>
+                <br><br>
+                <span class="h2">$40</span>/month
+                <br><br>
+              </div>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Cras justo odio</li>
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Dapibus ac facilisis in</li>
+              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+              </svg> Vestibulum at eros</li>
+            </ul>
+            <div class="card-body text-center">
+              <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+  
+</section>             
+
+
+
+
+
+<section class="height:100vh" style="background-color: #f9fbfb;" >
+  <div class="container py-5">
+    <div class="row mb-4">
+      <div class="col-lg-12 text-center">
+        <h2 class="h1 font-weight-light">FEEDBACK FROM CUSTOMERS</h2>
+        <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </p>
+      </div>
+    </div>
+
+    <div class="row text-center ">
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="girl.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Aya Smith</h5> <span class="small text-muted ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="doctor.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Samuel Hardy</h5><span class="small text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="woman2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">Ela Sunderland</h5><span class="small text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+      <!-- Team item-->
+      <div class="col-xl-3 col-sm-6 mb-5">
+        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <h5 class="mb-0">John Tarly</h5><span class="small text-muted">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</span>
+          <ul class="social mb-0 list-inline mt-3">
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End-->
+
+    </div>
+  </div>
+      
+</section>
+<section>
+  <div class="container-fluid " style="height: 80vh;">
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 py-5">
+    <img  class="img-fluid" src="headerimg.png">
+  </div>
+  
+    <div class="col-lg-5 col-md-12 mb-4 p-5">
+     
+          
+            <h2 class="text-dark">We’ve made a life
+              that will change you</h2>
+            <p class="h6">We are here to listen from you deliver exellence</p>
+          <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua.Ut enim ad minim</p>
+          <button class="btn btn-outline-primary btn-lg hover-overlay hover-zoom hover-shadow ripple text-center" style="border-radius:3px ">Get started</button> </div>
+</div>
+  </div>
+</section>
+<section>
+  <div class="row py-5" style="height: 60vh; background-color: #62ddff;">
+
+    <div class="container" style="height: 100vh; ">
+      <div class="container text-center">
+  
+        <div class="row py-5">
+          <div class="col-md-12 text-light"><h2>Got Impressed to our features?</h2></div>
+          <div class=" col-md-12 text-light"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p></div>
+          <div class="column col-md-12">
+            <button class="btn btn-outline-light btn-lg hover-overlay hover-zoom hover-shadow ripple text-center" style="border-radius:5px; ; ">Download</button>
+            </div></div></section>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
     
-    <div class="column col-md-5" style="color: white; padding-left: 100px; padding-top: 200px; ">
-    <h2 class="text-dark">We’ve made a life
-      that will change you</h2>
-      <h5 class="text-dark">We are here to listen from you deliver exellence</h5>
-    <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.</p>
-    <div class="d-grid gap-2 d-md-block">
-      <button class="btn btn-light" type="button">Get started</button>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-5 col-xl-3 ml-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3  text-light"></i><h6 class=" text-light">About Me
+          </h6>
+          <p class=" text-light">
+            Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,
+          </p>
+          <p class=" text-light">Copyright ©2022 All rights reserved | This template is made with  by <a>Colorlib</a></p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4  text-light">
+            Newsletter
+          </h6>
+          <p class=" text-light">
+            Stay updated with our latest trends
+          </p>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary" type="button">-></button>
+            </div>
+            <input type="text" class="form-control" placeholder="enter email addres" aria-label="" aria-describedby="basic-addon1">
+          </div>
+        </div>
+       
+        
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4 text-light">Follow me</h6>
+          <p><i class="fas fa-home me-3  text-light"></i><p class=" text-light"> Let us be social</p>
+          <p>
+            <a class="btn  btn-floating m-1" href="#!" role="button"
+            ><img  style="height:15px ;" src="instagram.png" ></a>
+    
+        
+          <a class="btn  btn-floating m-1" href="#!" role="button"
+            ><img  style="height: 15px;" src="snapchat.png"></a>
+    
+         
+          <a class="btn  btn-floating m-1" href="#!" role="button"
+            ><img  style="height: 15px;" src="twitter.png"></a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-floating m-1" href="#!" role="button"
+            ><img  style="height: 15px;" src="github.png"></a>
+    
+          
+    
+         
+        </div>
+        
+      </div>
       
     </div>
-    </div>
-    <div class="column col-md-5" style="padding-top: 80px">
-    <img src="slika3.png">
-    </div>
-   </div>
-</section>
+  </section>
+  <!-- Section: Links  -->
 
-
-
-
-
-
-
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
 
 
@@ -182,7 +510,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 
 
