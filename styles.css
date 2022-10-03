@@ -477,7 +477,7 @@ width: 100%;
   height: 70vh;
   margin-bottom: 20px;
   background-image: url(https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/master/pass/BlackForest-Germany-GettyImages-147180370.jpg);
-  
+  position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
